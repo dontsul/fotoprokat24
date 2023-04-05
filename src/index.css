@@ -21,3 +21,7 @@ code {
 ul {
     list-style: none;
 }
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
