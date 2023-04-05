@@ -1,0 +1,60 @@
+.wrapHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bigLogoWrap {
+    display: none;
+}
+
+.listHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.listHeader li {
+    margin: 0 10px;
+}
+.listHeader li:first-child {
+    margin-left: 0;
+}
+.listHeader li:last-child {
+    margin-right: 0;
+}
+.listHeader li a {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    bottom: 16px;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    align-items: end;
+    background-image: url('../../assets/image/header.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 375px;
+    width: 100%;
+    padding: 20px;
+}
+
+.wrapImgText {
+    z-index: 100;
+}
+
+.bigSircle {
+    position: absolute;
+    top: 328px;
+    left: 11px;
+}
+
+@media screen and (min-width: 768px) {
+}

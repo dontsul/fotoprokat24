@@ -1,0 +1,89 @@
+.main h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.main p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #75758a;
+    margin-bottom: 18px;
+}
+.main p span {
+    color: #000000;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.btns button {
+    width: 260px;
+    border: none;
+}
+
+.btns button:first-child {
+    background: linear-gradient(180deg, #8ee902 0%, #4f9c2c 100%);
+    border-radius: 100px;
+    color: white;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+.btns button:last-child {
+    background: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+
+    padding: 16px 0;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        padding-top: 93px;
+        max-width: 570px;
+    }
+    .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .btns button:first-child {
+        margin-bottom: 0px;
+        margin-right: 20px;
+    }
+}
