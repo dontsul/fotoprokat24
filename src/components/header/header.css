@@ -36,7 +36,7 @@
 .slider {
     position: relative;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     background-image: url('../../assets/image/header.png');
     background-position: center;
     background-repeat: no-repeat;
