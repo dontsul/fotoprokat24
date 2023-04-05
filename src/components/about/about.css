@@ -18,6 +18,7 @@
 
 .wrapSvg {
     margin-bottom: 16px auto;
+    cursor: pointer;
 }
 
 .itemAbout p {

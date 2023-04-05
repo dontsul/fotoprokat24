@@ -82,6 +82,7 @@
     border-radius: 100px;
     border: none;
     color: #000000;
+    cursor: pointer;
     margin-right: 20px;
 }
 .wrapBtn button:last-child {
@@ -96,7 +97,7 @@
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
     border-radius: 100px;
     border: none;
-
+    cursor: pointer;
     color: #ffffff;
 
     display: flex;
@@ -114,6 +115,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .icons div:first-child {
     margin-bottom: 20px;

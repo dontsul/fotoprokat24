@@ -26,6 +26,7 @@
 }
 .listHeader li a {
     position: relative;
+    cursor: pointer;
 }
 
 .circle {
